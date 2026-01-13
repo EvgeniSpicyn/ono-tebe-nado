@@ -189,7 +189,48 @@
 .lots__look-more-link {
   display: block;
   text-transform: lowercase;
-  padding: 30px 0 0 39px;
+  padding: 31px 0 0 39px;
   font-size: 20px;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+
+.about {
+  margin: 155px 0 0 23px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  grid-template-rows: auto;
+  /* justify-items: center; */
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  border-radius: 119px;
+  background-color: black;
+  height: 238px;
+  width: 238px;
+}
+
+.about__logo-image {
+  height: 113px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 99px 0 100px 25px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  padding: 0 32px 0 24px;
 }
