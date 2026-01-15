@@ -21,7 +21,6 @@
   list-style-type: none;
 }
 
-
 .header__logo-image {
   width: 148px;
   height: 105px;
@@ -41,7 +40,6 @@
   text-underline-offset: 4px;
   list-style-type: none;
   font-style: normal;
-
 }
 
 .cover {
@@ -257,7 +255,7 @@
 .footer__social-list {
   display: inline-flex;
   list-style-type: none;
-  justify-items: center; 
+  justify-items: center;
   gap: 48px;
   padding-left: 1px;
 }
